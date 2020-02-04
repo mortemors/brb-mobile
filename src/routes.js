@@ -1,25 +1,13 @@
-import { createAppContainer, createBottomTabNavigator } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
-import Main from './pages/Main';
-import User from './pages/User';
+import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+
+import SignIn from './pages/SignIn';
+import SignUp from './pages/SignUp';
 
 const Routes = createAppContainer(
-  createStackNavigator(
-    {
-      Main,
-      User,
-    },
-    {
-      defaultNavigationOptions: {
-        headerBackTitleVisible: false,
-        headerTitleAlign: 'center',
-        headerStyle: {
-          backgroundColor: '#7159c1',
-        },
-        headerTintColor: '#fff',
-      },
-    }
-  )
+  createSwitchNavigator({
+    SignIn,
+    SignUp,
+  })
 );
 
 export default Routes;

@@ -24,7 +24,8 @@ module.exports = {
   },
   plugins: [
     'react',
-    'prettier'
+    'prettier',
+    'react-hooks'
   ],
   rules: {
     'prettier/prettier': 'error',
@@ -39,7 +40,7 @@ module.exports = {
     camelcase: 'off',
     'no-console': ['error', {allow: ['tron']}],
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 'warn',
   },
   settings:{
     "import/resolver":{
