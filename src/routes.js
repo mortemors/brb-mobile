@@ -62,10 +62,10 @@ export default (isSigned = false) =>
             resetOnBlur: true,
             tabBarOptions: {
               keyboardHidesTabBar: true,
-              activeTintColor: '#FFF',
+              activeTintColor: '#985e6d',
               inactiveTintColor: 'rgba(255,255,255,0.6)',
               style: {
-                backgroundColor: '#8d41a8',
+                backgroundColor: '#494e6b',
               },
             },
           }

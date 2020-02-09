@@ -12,7 +12,7 @@ export const ProvidersList = styled.FlatList.attrs({
   padding: 0 20px;
 `;
 export const Provider = styled(RectButton)`
-  background: #fff;
+  background: #98878f;
   border-radius: 4px;
   padding: 20px;
   flex: 1;
@@ -30,6 +30,6 @@ export const Name = styled.Text`
   margin-top: 15px;
   font-size: 14px;
   font-weight: bold;
-  color: #333;
+  color: #fff;
   text-align: center;
 `;

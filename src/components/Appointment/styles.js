@@ -4,7 +4,7 @@ export const Container = styled.View`
   margin-bottom: 15px;
   padding: 20px;
   border-radius: 4px;
-  background: #fff;
+  background: #98878f;
 
   display: flex;
   flex-direction: row;
@@ -29,10 +29,10 @@ export const Info = styled.View`
 export const Name = styled.Text`
   font-weight: bold;
   font-size: 14px;
-  color: #333;
+  color: #fff;
 `;
 export const Time = styled.Text`
-  color: #999
+  color: #fff
   font-size: 13px;
   margin-top: 4px;
 `;
